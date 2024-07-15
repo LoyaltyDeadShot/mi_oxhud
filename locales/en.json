@@ -1,0 +1,19 @@
+{
+    "voice":        "Voice",
+    "health":       "Health",
+    "stamina":      "Stamina",
+    "hunger":       "Hunger",
+    "thirst":       "Thirst",
+    "drunk":        "Drunk",
+    "stress":       "Stress",
+    "oxygen":       "Oxygen",
+
+    "bloodloss":    "Blood Loss",
+    "illness":      "Illness",
+    "temperatre":   "Temperature",
+
+    "fuel":         "Fuel",
+    "engine":       "Engine",
+    "speed":        "Speed",
+    "seatbelt":     "Seat Belt"
+}

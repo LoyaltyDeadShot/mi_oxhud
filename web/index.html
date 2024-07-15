@@ -1,11 +1,96 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="style.css" />
     </head>
+
     <body>
-        <div id="container">
-            
+        <div id="cont">
+            <div id="cont_icons">
+                <div id="icons">
+                    <!-- ---- ---- ---- ---- ----  -->
+                    <!-- player indications -->
+                    <!-- ---- ---- ---- ---- ----  -->
+                    <!-- icon for player voice levels -->
+                    <div id="voice_indc" class="icon">
+                        <i id="icon_voice" class="fa-solid fa-comment"></i>
+                    </div>
+                    <!-- icon for player health levels -->
+                    <div id="health_indc" class="icon">
+                        <i id="icon_health" class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <!-- icon for player stamina levels -->
+                    <div id="stamina_indc" class="icon">
+                        <i id="icon_stamina" class="fa-solid fa-bolt"></i>
+                    </div>
+                    <!-- icon for player hunger levels -->
+                    <div id="hunger_indc" class="icon">
+                        <i id="icon_hunger" class="fa-solid fa-apple-whole"></i>
+                    </div>
+                    <!-- icon for player thirst levels -->
+                    <div id="thirst_indc" class="icon">
+                        <i id="icon_thirst" class="fa-solid fa-bottle-water"></i>
+                    </div>
+                    <!-- icon for player drunk levels -->
+                    <div id="drunk_indc" class="icon">
+                        <i id="icon_drunk" class="fa-solid fa-beer-mug-empty"></i>
+                    </div>
+                    <!-- icon for player stress levels -->
+                    <div id="stress_indc" class="icon">
+                        <i id="icon_stress" class="fa-solid fa-masks-theater"></i>
+                    </div>
+                    <!-- icon for player oxygen levels -->
+                    <div id="oxygen_indc" class="icon">
+                        <i id="icon_oxygen" class="fa-solid fa-lungs"></i>
+                    </div>
+
+                    <!-- ---- ---- ---- ---- ----  -->
+                    <!-- condition indications -->
+                    <!-- ---- ---- ---- ---- ----  -->
+                    <!-- icon for player bloodloss levels -->
+                    <div id="bloodloss_indc" class="icon">
+                        <i id="icon_bloodloss" class="fa-solid fa-droplet"></i>
+                    </div>
+                    <!-- icon for player illness levels -->
+                    <div id="illness_indc" class="icon">
+                        <i id="icon_illness" class="fa-solid fa-viruses"></i>
+                    </div>
+                    <!-- icon for player temperature levels -->
+                    <div id="temperature_indc" class="icon">
+                        <i id="icon_temperature" class="fa-solid fa-temperature-half"></i>
+                    </div>
+                    <!-- ---- ---- ---- ---- ----  -->
+                    <!-- vehicle indications -->
+                     <!-- ---- ---- ---- ---- ----  -->
+                    <!-- icon for player fuel levels -->
+                    <div id="fuel_indc" class="icon">
+                        <i id="icon_fuel" class="fa-solid fa-gas-pump"></i>
+                    </div>
+                    <!-- icon for player engine levels -->
+                    <div id="engine_indc" class="icon">
+                        <i id="icon_engine" class="fa-solid fa-oil-can"></i>
+                    </div>
+                    <!-- icon for player speed levels -->
+                    <div id="speed_indc" class="icon">
+                        <i id="icon_speed" class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <!-- icon for player seatbelt levels -->
+                    <div id="seatbelt_indc" class="icon">
+                        <i id="icon_seatbelt" class="fa-solid fa-user-slash"></i>
+                    </div>
+                </div>
+            </div>
         </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js"
+      integrity="sha512-7IoDEsIJGxz/gNyJY/0LRtS45wDSvPFXGPuC7Fo4YueWMNOmWKMAllEqo2Im3pgOjeEwsOoieyliRgdkZnY0ow=="
+      crossorigin="anonymous"
+    ></script>
     </body>
 </html>

@@ -1,0 +1,29 @@
+body {
+    margin: 0; padding: 0;
+    width: 100%; height: 100%;
+}
+
+/* centers entire screen */
+#ui_frame {
+	position: relative; overflow: hidden; padding: 100px;
+}
+
+
+
+
+/* lower center of screen for vehicle */
+#ui_frame_vehicle {
+	position: absolute;
+    right: 48%;
+    bottom: 10%;
+}
+
+#fuel_indc {
+    width: 250px; height: 25px; border-radius: 50px; overflow: hidden; background: rgba(255, 255, 255, 0.35);
+    padding: 5px 0px; 
+}
+
+#icon_fuel {
+    color: #32b95b; position: relative; text-align: left;
+    font-size: 20px; bottom: -10%; right: -5%;
+}

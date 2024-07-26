@@ -4,47 +4,20 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
-		<link rel="stylesheet" href="reset.css" type="text/css">
-		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
 		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
 		<script src="./script.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div id="ui_frame">
-            <div id="ui_frame_status">
-                    <!-- icon for player voice levels -->
-                <div id="voice_indc" class="icon">
-                    <i id="icon_voice" class="fa-solid fa-comment"></i>
-                </div>
-                <!-- icon for player health levels -->
-                <div id="health_indc" class="icon">
-                    <i id="icon_health" class="fa-solid fa-heart-pulse"></i>
-                </div>
-                <!-- icon for player stamina levels -->
-                <div id="stamina_indc" class="icon">
-                    <i id="icon_stamina" class="fa-solid fa-bolt"></i>
-                </div>
-                <!-- icon for player hunger levels -->
-                <div id="hunger_indc" class="icon">
-                    <i id="icon_hunger" class="fa-solid fa-apple-whole"></i>
-                </div>
-                <!-- icon for player thirst levels -->
-                <div id="thirst_indc" class="icon">
-                    <i id="icon_thirst" class="fa-solid fa-bottle-water"></i>
-                </div>
-                <!-- icon for player drunk levels -->
-                <div id="drunk_indc" class="icon">
-                    <i id="icon_drunk" class="fa-solid fa-beer-mug-empty"></i>
-                </div>
-                <!-- icon for player stress levels -->
-                <div id="stress_indc" class="icon">
-                    <i id="icon_stress" class="fa-solid fa-masks-theater"></i>
-                </div>
-                <!-- icon for player oxygen levels -->
-                <div id="oxygen_indc" class="icon">
-                    <i id="icon_oxygen" class="fa-solid fa-lungs"></i>
-                </div>
+            
+            <div id="ui_frame_vehicle">
+                <div id="fuel_indc" class="vehicle_icon"> <i id="icon_fuel" class="fa-solid fa-gas-pump"></i> </div>
+                <div id="fuel_progbar"></div>
             </div>
+
+            
 		</div>
 	</body>
     <script

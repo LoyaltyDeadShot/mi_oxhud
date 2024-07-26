@@ -1,31 +1,25 @@
-body {
-    margin:0;
+/* This applies to all elements (bad practice) */
+* {
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-#cont {
-    width: 100%; height: 100%;
-    overflow: hidden; margin: 0;
-    display: none; flex-direction: column;
+/* This css centers at the middle of the screen */
+#container {
+	padding: 10px;
+	text-shadow: 2px 2px 5px #424242;
+    position: absolute;
+    color: rgb(241, 235, 235);
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 45px;
+	text-align: center;
+	background-color: #272727;
+	border-radius: 25px;
+	border: 2px solid #dad9d9 ;
 }
 
-#cont_icons {
-    margin-top: auto;
-}
-
-#icons {
-    display: flex; gap: 30px;
-    margin: 20px 50px;
-}
-
-.icon {
-    position: relative; width: 50px;
-    height: 50px; border-radius: 50%;
-    background: rgb(50, 50, 50);
-    display: none;
-}
-
-.Icon i {
-    color: white; position: absolute;
-    font-size: 16px; left: 50%; top: 50%;
-    transform: translate(-50%, -50%);
+.small {
+	font-size: 25px;
 }

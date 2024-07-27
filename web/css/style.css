@@ -4,26 +4,24 @@ body {
 }
 
 /* centers entire screen */
-#ui_frame {
+#frame {
 	position: relative; overflow: hidden; padding: 100px;
 }
 
 
-
+/* https://loading.io/progress/ */
 
 /* lower center of screen for vehicle */
-#ui_frame_vehicle {
-	position: absolute;
-    right: 48%;
-    bottom: 10%;
+#status_vehicle {
+	position: fixed; right: 45%; bottom: 10%;
 }
 
-#fuel_indc {
-    width: 250px; height: 25px; border-radius: 50px; overflow: hidden; background: rgba(255, 255, 255, 0.35);
-    padding: 5px 0px; 
+#fuel_bar {
+    position: fixed; text-align: center; color: #ffffff00;
+    font-size: 20px; bottom: 11.5%; right: 48%; scale: 1.5;
 }
 
-#icon_fuel {
-    color: #32b95b; position: relative; text-align: left;
-    font-size: 20px; bottom: -10%; right: -5%;
+#speed_bar {
+    position: fixed; text-align: center; color: #ffffff00;
+    font-size: 20px; bottom: 13.5%; right: 48%; scale: 1.5;
 }

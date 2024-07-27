@@ -4,25 +4,32 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 		<link rel="stylesheet" href="css/reset.css" type="text/css">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
-		<script src="./script.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/loading-bar.css" type="text/css"/>
+
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	    <script src="./script.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/loading-bar.js"></script>
 	</head>
 	<body>
-		<div id="ui_frame">
-            
-            <div id="ui_frame_vehicle">
-                <div id="fuel_indc" class="vehicle_icon"> <i id="icon_fuel" class="fa-solid fa-gas-pump"></i> </div>
-                <div id="fuel_progbar"></div>
-            </div>
+		<div id="frame">
+            <div id="status_player">
 
-            
-		</div>
+            </div>
+            <div id="status_vehicle">
+                <div id="fuel_bar" data-preset="line"
+                class="ldBar label-center"
+                data-value="35"></div>
+                <div id="speed_bar" data-preset="line"
+                class="ldBar label-center"
+                data-value="200"></div>
+            </div>
+            <div id="status_ailments">
+
+            </div>
+        </div>
 	</body>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js"
-      integrity="sha512-7IoDEsIJGxz/gNyJY/0LRtS45wDSvPFXGPuC7Fo4YueWMNOmWKMAllEqo2Im3pgOjeEwsOoieyliRgdkZnY0ow=="
-      crossorigin="anonymous"
-    ></script>
 </html>
+
